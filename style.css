@@ -1,0 +1,165 @@
+body {
+  font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+  background-color: #e6f9e6; /* Updated background color to light green for a more pleasant look */
+}
+
+h1 {
+  color: #1a73e8; /* Updated title color to blue */
+}
+
+#footer {
+  height: 30px;
+  vertical-align: middle;
+  text-align: right;
+  clear: both;
+  padding-right: 3px;
+  background-color: #317082;
+  margin-top: 2px;
+  width: 790px;
+}
+
+#footer form {
+  margin: 0px;
+  margin-top: 2px;
+}
+
+#dhtmlgoodies_dragDropContainer {
+  width: 790px;
+  height: 770px;
+  border: 2px solid #1a73e8; /* Enhanced border style for a more visually appealing look */
+  background-color: #ffffff;
+  -moz-user-select: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for a 3D effect */
+}
+
+#dhtmlgoodies_dragDropContainer ul {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 2px;
+}
+
+#dhtmlgoodies_dragDropContainer li, #dragContent li, li#indicateDestination {
+  list-style-type: none;
+  height: 20px;
+  background-color: #cce5ff; /* Updated to a blue tone for blue boxes */
+  border: 1px solid #000;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 12px; /* Reduced font size for better fit */
+  line-height: 20px;
+  border-radius: 5px; /* Added border-radius for rounded corners */
+}
+
+li#indicateDestination {
+  border: 1px dotted #600;
+  background-color: #ffffff;
+}
+
+#dhtmlgoodies_dragDropContainer ul li.correctAnswer {
+  background-color: green;
+  color: #ffffff;
+}
+
+#dhtmlgoodies_dragDropContainer ul li.wrongAnswer {
+  background-color: red;
+  color: #ffffff;
+}
+
+/* LEFT COLUMN CSS */
+div#dhtmlgoodies_listOfItems {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 160px;
+}
+
+#dhtmlgoodies_listOfItems ul {
+  height: 560px;
+}
+
+div#dhtmlgoodies_listOfItems div {
+  border: 1px solid #999;
+}
+
+div#dhtmlgoodies_listOfItems div ul {
+  margin-left: 10px;
+}
+
+#dhtmlgoodies_listOfItems div p {
+  margin: 0px;
+  font-weight: bold;
+  padding-left: 12px;
+  background-color: #317082;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+#dhtmlgoodies_dragDropContainer .mouseover {
+  background-color: #e6f9e6;
+  border: 1px solid #1a73e8;
+}
+
+/* Start main container CSS */
+div#dhtmlgoodies_mainContainer {
+  width: 590px;
+  float: left;
+}
+
+#dhtmlgoodies_mainContainer div {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border: 1px solid #999;
+  width: 170px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for 3D effect */
+  border-radius: 5px; /* Rounded corners for a more polished look */
+}
+
+#dhtmlgoodies_mainContainer div ul {
+  margin-left: 10px;
+}
+
+#dhtmlgoodies_mainContainer div p {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 12px;
+  font-weight: bold;
+  background-color: #ffcc66; /* Updated background color to a warmer yellow tone for yellow boxes */
+  color: #000000; /* Changed text color to black for better readability */
+  margin-bottom: 5px;
+}
+
+#dhtmlgoodies_mainContainer ul {
+  width: 152px;
+  height: 80px;
+  border: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+#dragContent {
+  position: absolute;
+  width: 150px;
+  height: 20px;
+  display: none;
+  margin: 0px;
+  padding: 0px;
+  z-index: 2000;
+}
+
+#dragDropIndicator {
+  position: absolute;
+  width: 7px;
+  height: 10px;
+  display: none;
+  z-index: 1000;
+  margin: 0px;
+  padding: 0px;
+}
+
+.style1 {
+  color: #ff0000;
+}
